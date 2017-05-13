@@ -23,7 +23,7 @@ set[147] = [
 
 These are interpreted like this: a Pokemon is posted if it satisfies **any** of the `{`...`}` units. A unit is satisfied if **all** parts of it are satisfied, where missing `r`, `iv`, and `cp` are interpreted as any radius/IV/CP rsp. (including unknown). Of course, IV/CP filters will only work for Pokemon that the map tests for IV/CP.
 
-The format for IV is *deficit from perfect IV* -- i.e. 0 = 45/45 = 100%, -1 = 44/45 = 98%, -45 = 0/45 = 0%. Radius is always measured in km.
+The format for IV is *deficit from perfect IV* – i.e. 0 = 45/45 = 100%, -1 = 44/45 = 98%, -45 = 0/45 = 0%. Radius is always measured in km.
 
 #### Examples:  
 `{r: 2, iv: -3, cp: 100}` – 93%+ with CP 100+ within 2km of home.  
