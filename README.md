@@ -40,7 +40,7 @@ If something goes wrong or just for fun, you can use the functions in my code. I
 `notifyPB("I want some pizza","Pls")` – I'll send your phone a message via Pushbullet.  
 `tell(Pokemons[5])` – I'll print a notification about Pokemon #5, as if I detected it.  
 `poll()` – I'll silently check the map for new spawns and mark them as read.  
-`loop()` – I'll check the map for new spawns and send them to you.
+`loop()` – I'll check the map for new spawns and send them to you.  
 `clearInterval(timer)` – Stops my checking loop. To restart, paste `var timer = setInterval(loop, 30 * 1000);`.
 
 ### Anything Else?
