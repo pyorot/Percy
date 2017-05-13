@@ -34,13 +34,14 @@ The format for IV is *deficit from perfect IV* -- i.e. 0 = 45/45 = 100%, -1 = 44
 There's a feature to alert you of any 100% Pokemon detected by the map near you. Set a radius at `perfect_r` and away you go.
 
 ### Debugging
-If something goes wrong or just for fun, you can use the functions in my code. I'm very modular :). Type the following into the console after starting me:  
+If something goes wrong or just for fun, you can use the functions in my code. I'm very modular :). Type the following into the console after starting me. Alternatively, you can mod my functions individually by pasting them into the console.  
 `Pokemons` – all Pokemon in the map's memory are stored here.  
 `Pokemons[5]` – the Pokemon at position #5 in `Pokemons`.  
 `notifyPB("I want some pizza","Pls")` – I'll send your phone a message via Pushbullet.  
 `tell(Pokemons[5])` – I'll print a notification about Pokemon #5, as if I detected it.  
 `poll()` – I'll silently check the map for new spawns and mark them as read.  
 `loop()` – I'll check the map for new spawns and send them to you.
+`clearInterval(timer)` – Stops my checking loop. To restart, paste `var timer = setInterval(loop, 30 * 1000);`.
 
 ### Anything Else?
 Pushbullet has a limit of 500 messages per month. If you exceed, make a new account!
